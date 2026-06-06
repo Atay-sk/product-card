@@ -36,14 +36,15 @@ body {
     line-height: 27px;
     font-size: 20px;
 }
-.component-padding{
-    padding-left: 13px;
-}
 .components {
     margin-top: 5px;
+    padding-left: 13px;
 }
 .price {
     display: flex;
     margin-top: 25px;
+    font-size: 20px;
+}
+.price2 {
     font-size: 20px;
 }
