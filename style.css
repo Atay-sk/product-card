@@ -6,10 +6,13 @@ body {
     font-size: 13px;
     line-height: 18px;
     color: #515076;
+}
+.catalog {
     background-image: url("./img/background1.png");
     background-repeat: no-repeat;
     background-size: 790px 697px;
-    background-position: 85px 0px;
+    max-width: 1110px;
+    margin: 0 auto;
 }
 .title {
     font-size: 70px;
@@ -17,7 +20,7 @@ body {
     margin: 0;
     font-weight: 400;
     text-align: center;
-    margin-top: 220px;
+    padding-top: 220px;
     margin-bottom: 110px;
 }
 .product-list {
@@ -27,15 +30,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 1110px;
-    column-gap: 45px;
-    row-gap: 45px;
+    gap: 45px;
     justify-content: center;
 }
 .card {
-    display: inline-block;
     background: #F7F7FA;
     width: 340px;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
 }
 .skin-type {
     font-size: 12px;
@@ -53,16 +56,9 @@ body {
     margin-top: 5px;
     padding-left: 13px;
 }
-.price {
-    display: flex;
-    margin-top: 25px;
-    font-size: 20px;
-}
-.card-price {
-    font-size: 20px;
-    margin-top: 25px;
-}
 .price-space {
     display: flex;
     justify-content: space-between;
+    margin-top: 25px;
+    font-size: 20px;
 }
