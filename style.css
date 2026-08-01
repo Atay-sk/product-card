@@ -33,14 +33,14 @@ body {
     gap: 45px;
     justify-content: center;
 }
-.card {
+.product-list__card {
     background: #F7F7FA;
     width: 340px;
     padding: 25px;
     display: flex;
     flex-direction: column;
 }
-.skin-type {
+.product-list__skin-type {
     font-size: 12px;
     line-height: 24px;
     text-transform: uppercase;
@@ -48,15 +48,15 @@ body {
     margin-top: 24px;
     display: block; /* превратил спан в блочный элемент для margin */
 }
-.card-name {
+.product-list__card-name {
     line-height: 27px;
     font-size: 20px;
 }
-.components {
+.product-list__components {
     margin-top: 5px;
     padding-left: 13px;
 }
-.price-space {
+.product-list__price-space {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
